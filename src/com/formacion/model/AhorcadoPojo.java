@@ -4,13 +4,26 @@ import java.util.Arrays;
 
 public class AhorcadoPojo {
 	
+	
+	//TODO (Agosto) probar usando AJAX y usar contador de tiempo cliente js 
 	private final int INTENTOS_TOTALES = 7;
 	public int intentoActual;
-	private String [] palabrasPosibles = {"informatica", "java", "servlet", "modelo", "controlador", "vista"};
+	
 	private String palabraEscogida;
 	public String palabraGuiones;
 	public char[] letrasAcertadas;
 	public String letrasPulsadas="";
+	private String [] palabrasPosibles = {"Ipartek",
+										 "listener",
+										 "filtro",
+										 "controlador",
+										 "java",
+										 "Tomcat",
+										 "servlet",
+										 "modelo",
+										 "informatica",
+										 "vista"};
+	
 	
 	public String getLetrasPulsadas() {
 		return letrasPulsadas;
