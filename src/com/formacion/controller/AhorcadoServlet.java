@@ -120,7 +120,7 @@ public class AhorcadoServlet extends HttpServlet {
 				if(!ahorcadoDatos.getPalabraGuiones().contains("_")) {
 					
 					session.setAttribute("intentoActual", "Salvado");
-					session.setAttribute("perdido", new Alert("success", "¡¡<b>ENHORABUENA</b> has sobrevivido!!"));
+					session.setAttribute("perdido", new Alert("success", "<b>ENHORABUENA</b> has sobrevivido!!"));
 					session.setAttribute("volverJugar", "<a class=\"btn btn-info\" href=\"ahorcado?nuevo=1\">Volver a jugar</a>");
 					
 					
