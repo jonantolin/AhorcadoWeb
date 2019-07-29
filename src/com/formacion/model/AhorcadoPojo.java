@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class AhorcadoPojo {
 	
 	
-	//TODO (Agosto) probar usando AJAX y usar contador de tiempo cliente js 
+	//TODO (Agosto) probar usando AJAX / usar contador de tiempo cliente js / conexion a bbdd con  tabla diccionario (buscar csv?)
 	private final int INTENTOS_TOTALES = 7;
 	public int intentoActual;
 	

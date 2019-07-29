@@ -40,9 +40,12 @@ public class AhorcadoServlet extends HttpServlet {
 			
 			String jugadores = request.getParameter("jug");
 			String letraIntroducida = request.getParameter("letra");
-			
-			
+
 			HttpSession session = request.getSession();
+			
+			if(jugadores != null) {
+				session.setAttribute("jugadorActivo", jugadores);
+			}
 			
 			session.setAttribute("letrasPulsadas", "");
 			
@@ -141,7 +144,7 @@ public class AhorcadoServlet extends HttpServlet {
 				
 			}
 		
-		request.getRequestDispatcher("formujuego.jsp").forward(request, response);
+		request.getRequestDispatcher("panel-juego/formujuego.jsp").forward(request, response);
 		}
 	}
 

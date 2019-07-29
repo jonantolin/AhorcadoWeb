@@ -39,7 +39,7 @@
 
 	</style>
 
-<jsp:include page="includes/header.jsp"></jsp:include>
+<jsp:include page="/includes/header.jsp"></jsp:include>
   
   	<div class="jumbotron">
   		<h1 class="text-center">Ahorcado</h1>
@@ -156,4 +156,4 @@
 
 <% }%>	
 
-<jsp:include page="includes/footer.jsp"></jsp:include>
+<jsp:include page="/includes/footer.jsp"></jsp:include>
